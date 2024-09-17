@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    padding: 5px 10px;
+    /* height: 2px; */
+    text-align: center;
+    text-decoration: none;
+}
+
+.con2{
+    display: grid;
+    row-gap: 10px;
+    /* column-gap: 10px; */
+    grid-template-columns: 300px 300px 300px 300px;
+}
+
+p{
+    text-align: justify;
+}
+
+.card-text{
+    height: 100px;
+    overflow: hidden;
+
+}
